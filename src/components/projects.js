@@ -18,7 +18,7 @@ class Projects extends Component {
               Personal portfolio using react app.
             </CardText>
             <CardActions border>
-              <Button href="https://github.com/KevinMunoz19?tab=repositories" rel="noopener noreferrer" target="_blank" colored>GitHub</Button>
+              <Button href="https://github.com/KevinMunoz19/Portfolio-Dev-Build" rel="noopener noreferrer" target="_blank" colored>GitHub</Button>
             </CardActions>
           </Card>
         </div>

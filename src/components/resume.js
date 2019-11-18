@@ -35,7 +35,7 @@ class Resume extends Component{
             <h5>Address</h5>
             <p>Zona 14, Guatemala City, Guatemala</p>
             <h5>Phone</h5>
-            <p>(+502) 3007-5592</p>
+            <p>(502) 3007-5592</p>
             <h5>Email</h5>
             <p>kevin.munoz11@hotmail.com</p>
             <h5>Web</h5>
@@ -51,8 +51,8 @@ class Resume extends Component{
               schoolDescription="Mechatronics Engineer"
             />
             <Education
-              startYear={2014}
-              endYear={2012}
+              startYear={2012}
+              endYear={2014}
               schoolName="Colegio La Preparatoria"
               schoolDescription="High School Diploma, Computer Hardware and Software Oriented"
             />
@@ -74,18 +74,23 @@ class Resume extends Component{
             <h2>Skills</h2>
             <Skills
               skill="HTML"
+              sskill="Teamwork"
             />
             <Skills
               skill="CSS"
+              sskill="Adaptability"
             />
             <Skills
               skill="JavaScript"
+              sskill="Leadership"
             />
             <Skills
               skill="Python"
+              sskill="Problem Solving"
             />
             <Skills
               skill="NodeJS"
+              sskill="Autodidact"
             />
             <Skills
               skill="ExpressJS"
@@ -98,6 +103,12 @@ class Resume extends Component{
             />
             <Skills
               skill="MATLAB"
+            />
+            <Skills
+              skill="SQL"
+            />
+            <Skills
+              skill="UNIX"
             />
             <hr style={{borderTop: '3px solid #e22947'}}/>
             <h2>Volunteer Experience</h2>
@@ -129,13 +140,13 @@ class Resume extends Component{
           <h2>Achievements</h2>
             <Achievements
               startYear="Jan 2019"
-              achievementsName= "Academic Distinciont"
+              achievementsName= "Academic Distinction"
               achievementsDescription = "Distinciton for outstanding academic record for the year 2018."
             />
           <Achievements
               startYear="June 2018"
               achievementsName= "Entrepreneurship and Innovation Project Competition"
-              achievementsDescription = "1st Place at the intra university entrepreneurship competition for the vertical hydroponic plantation project."
+              achievementsDescription = "1st Place at the intra university entrepreneurship competition."
             />
           </Cell>
         </Grid>

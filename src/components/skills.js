@@ -5,9 +5,14 @@ class Skills extends Component {
   render(){
     return(
       <Grid>
-        <Cell col={12}>
+        <Cell col={6}>
           <div style={{display: 'flex'}}>
             {this.props.skill}
+          </div>
+        </Cell>
+        <Cell col={6}>
+          <div style={{display: 'flex'}}>
+            {this.props.sskill}
           </div>
         </Cell>
       </Grid>
